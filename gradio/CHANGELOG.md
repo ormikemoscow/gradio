@@ -1,5 +1,25 @@
 # gradio
 
+## 5.5.0
+
+### Features
+
+- [#9875](https://github.com/gradio-app/gradio/pull/9875) [`8305ff8`](https://github.com/gradio-app/gradio/commit/8305ff8712183f27174cfb891548ad7cc1c67fed) - Adds `.expand()` and `.collapse()` events to `gr.Accordion`.  Thanks @abidlabs!
+- [#9424](https://github.com/gradio-app/gradio/pull/9424) [`a1582a6`](https://github.com/gradio-app/gradio/commit/a1582a6dca494618c734208cade87acfdac91004) - Lite worker refactoring.  Thanks @whitphx!
+- [#9891](https://github.com/gradio-app/gradio/pull/9891) [`fc12496`](https://github.com/gradio-app/gradio/commit/fc124964a1b4922e54a4ca4755f0a536dfae1a21) - Allow uploading more files in gr.File.  Thanks @hannahblair!
+- [#9887](https://github.com/gradio-app/gradio/pull/9887) [`d407c00`](https://github.com/gradio-app/gradio/commit/d407c007153705a7f5446f4601c12f208ec32a5b) - Add `.download()` event to `gr.File`.  Thanks @abidlabs!
+- [#9786](https://github.com/gradio-app/gradio/pull/9786) [`f109497`](https://github.com/gradio-app/gradio/commit/f109497e8281b3429b58e3f6a293dd63ebcc08af) - Fix frontend errors on ApiDocs and RecordingSnippet.  Thanks @whitphx!
+- [#9800](https://github.com/gradio-app/gradio/pull/9800) [`d1cfe1e`](https://github.com/gradio-app/gradio/commit/d1cfe1e9defa06f927aec2671656fe77514dd0fa) - Allow plot tooltip to show extra columns.  Thanks @aliabid94!
+
+### Fixes
+
+- [#9804](https://github.com/gradio-app/gradio/pull/9804) [`458a38c`](https://github.com/gradio-app/gradio/commit/458a38cabb8e378bb008b1abec8eee8b780fe712) - Fixes for ChatInterface Examples when additional inputs are provided.  Thanks @dawoodkhan82!
+- [#9827](https://github.com/gradio-app/gradio/pull/9827) [`7ed8d02`](https://github.com/gradio-app/gradio/commit/7ed8d02979e8ad4db6ef62b29ce080f31bcf9a0d) - Fix Loading SSR'd apps via gr.load.  Thanks @freddyaboulton!
+- [#9880](https://github.com/gradio-app/gradio/pull/9880) [`120198f`](https://github.com/gradio-app/gradio/commit/120198fe2da2ded9e8f27549b9dfd1cd81992ec4) - Fixes LoginButton for SSR.  Thanks @dawoodkhan82!
+- [#9881](https://github.com/gradio-app/gradio/pull/9881) [`6866a54`](https://github.com/gradio-app/gradio/commit/6866a5433afe7e29ad73bac10ecbc3b44f5867f4) - Ensure gallery share button is positioned correctly.  Thanks @hannahblair!
+- [#9826](https://github.com/gradio-app/gradio/pull/9826) [`69acfeb`](https://github.com/gradio-app/gradio/commit/69acfebffd0d3479a40352de19c8763863557428) - Make sure the Tool accordion is closed if it is not the last message.  Thanks @freddyaboulton!
+- [#9859](https://github.com/gradio-app/gradio/pull/9859) [`c1cb5be`](https://github.com/gradio-app/gradio/commit/c1cb5be2d79fce5d25032366b5864700ba9d1114) - Fix: Resolve copy button visibility issue in Textbox component.  Thanks @rahulsamant37!
+
 ## 5.4.0
 
 ### Features

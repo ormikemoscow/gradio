@@ -1,5 +1,11 @@
 # @gradio/wasm
 
+## 0.14.3
+
+### Features
+
+- [#9424](https://github.com/gradio-app/gradio/pull/9424) [`a1582a6`](https://github.com/gradio-app/gradio/commit/a1582a6dca494618c734208cade87acfdac91004) - Lite worker refactoring.  Thanks @whitphx!
+
 ## 0.14.2
 
 ### Fixes

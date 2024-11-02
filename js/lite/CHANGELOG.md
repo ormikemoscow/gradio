@@ -1,5 +1,17 @@
 # @gradio/lite
 
+## 5.5.0
+
+### Features
+
+- [#9424](https://github.com/gradio-app/gradio/pull/9424) [`a1582a6`](https://github.com/gradio-app/gradio/commit/a1582a6dca494618c734208cade87acfdac91004) - Lite worker refactoring.  Thanks @whitphx!
+
+### Dependency updates
+
+- @gradio/atoms@0.11.0
+- @gradio/wasm@0.14.3
+- @gradio/core@0.3.0
+
 ## 4.43.2
 
 ### Dependency updates
